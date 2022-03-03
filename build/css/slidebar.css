@@ -1,0 +1,50 @@
+.cart__container-slidebar{
+    padding:20px 30px;
+}
+.cart__slidebar{
+    display: flex;
+    width: 400px;
+    height:600px;
+    position: relative;
+   
+}
+.control {
+    flex-basis: 50px;
+    position:absolute;
+    background-color: transparent;
+    color:rgb(0, 0, 0);
+    z-index: 99999;
+    top:40%;
+    font-size:28px;
+}
+.control_pre{
+    left:5px;
+    border: none;
+}
+.control_pre i:hover,
+.control_next i:hover{
+    color:rgb(151, 151, 151);
+}
+.control_pre i,.control_next i{
+    font-size:5rem;
+    color: rgb(0, 0, 0);
+}
+.control_next{
+    right:5px;  
+    border: none;
+}
+.slides__container{
+    overflow: hidden;
+    width: 450px;
+    height:600px;
+}
+.slides{
+    width:450px;
+    display:flex;
+    transition: all .8s ease;
+}
+.slide{
+    width:450px;
+    height:600px;
+    object-fit:inherit; 
+}
